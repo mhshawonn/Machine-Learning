@@ -9,4 +9,5 @@ def load_data(filepath="data/housing.csv"):
    
 
 housing = load_data()
+print(housing.info())
 print(housing.head())
